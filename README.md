@@ -6,7 +6,9 @@ MaxTemp Program:
 CMD ->
 
 1. cat >> temperatures.csv
-year,temperature \n
+
+
+year,temperature
 2000,25.4
 2000,26.8
 2000,24.5
@@ -19,9 +21,9 @@ year,temperature \n
 (ctrl+z)
 
 
-2. hadoop fs -mkdir /pig_data
-3. hadoop fs -put temperatures.csv /pig_data
-4. pig
+3. hadoop fs -mkdir /pig_data
+4. hadoop fs -put temperatures.csv /pig_data
+5. pig
 
 ## grunt > cmd ...........
 
