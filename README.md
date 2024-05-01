@@ -6,7 +6,7 @@ MaxTemp Program:
 CMD ->
 
 1. cat >> temperatures.csv
-year,temperature
+year,temperature \n
 2000,25.4
 2000,26.8
 2000,24.5
