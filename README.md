@@ -35,10 +35,10 @@ year,temperature
 3. max_temps = FOREACH grouped_data GENERATE group AS year, MAX(data.temperature) AS max_temperature;
 
 ## Store the results
-4. STORE max_temps INTO 'output_directory' USING PigStorage(',');
+4. STORE max_temps INTO 'output_directory1' USING PigStorage(',');
 
 ## output
-5. fs -cat /output_directory/part-r-00000
+5. fs -cat /output_directory1/part-r-00000
 
 
 ***************************************** THANKYOU ******************************************
