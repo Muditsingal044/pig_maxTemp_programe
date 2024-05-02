@@ -7,14 +7,15 @@ CMD ->
 
 1. touch temperatures.csv
 
-2. open temperatures.csv and paste it
+2. open file -> temperatures.csv and paste it
+https://drive.google.com/file/d/1w9MkoD2V72Z3ORlsoRTLaG3P6vZzcbyv/view?usp=sharing   ...(copy)
 
 
 
 
-4. hadoop fs -mkdir /pig_data
-5. hadoop fs -put temperatures.csv /pig_data
-6. pig
+3. hadoop fs -mkdir /pig_data
+4. hadoop fs -put temperatures.csv /pig_data
+5. pig
 
 ## grunt > cmd ...........
 
