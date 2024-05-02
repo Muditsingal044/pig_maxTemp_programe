@@ -15,7 +15,8 @@ https://drive.google.com/file/d/1w9MkoD2V72Z3ORlsoRTLaG3P6vZzcbyv/view?usp=shari
 
 3. hadoop fs -mkdir /pig_data
 4. hadoop fs -put temperatures.csv /pig_data
-5. pig
+5. cd hive/bin
+6. pig
 
 ## grunt > cmd ...........
 
